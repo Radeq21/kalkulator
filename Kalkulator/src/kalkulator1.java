@@ -8,12 +8,17 @@ public class kalkulator1 {
 	 double y= a-b/c;
 	 System.out.println(x= (a+b)*c);
 	 System.out.println(y= a-b/c);
-	 System.out.println(x=((a++)+(b++))*(c++));//dlaczego tu wynik jest taki sam jak dwie linie wy縠j?
+	 System.out.println(x=((a++)+(b++))*(c++));//dlaczego tu wynik jest taki sam jak dwie linie wy偶ej?
+	 // bo to jest to samo to wynik taki sam, konstrukcja a = 1+b++ ze a to bedzie teraz 1 + b, a po wykonaniu ten operacji
+	 // do b dodaj 1. konstrukcja a = 1+ ++b oznacza ze a to teraz bedzie 1 dodac (b+1), ogolnie ++b i b++ oznaczaja
+	 // zwieksz b o 1 ale jesli sa w innym wyrazeniu to ++b najpierw zmien b a potem wykonaj wyrazenie a b++ najpierw wykonaj wyrazenie
+	 // a potem zwieksz b
 	 System.out.println(y=(a++)-(b++)/(c++));// dlaczego tu nie ma minusa przed wynikiem?
-	 boolean por體nanie1= (a+b)>c;
-	 boolean por體nanie2= a==b;
-	 System.out.println(por體nanie1);
-	 System.out.println(por體nanie2);
+	 // nie ma minusa bo (3-2)/4 to jest 0.25
+	 boolean por贸wnanie1= (a+b)>c;
+	 boolean por贸wnanie2= a==b;
+	 System.out.println(por贸wnanie1);
+	 System.out.println(por贸wnanie2);
 	 
 	
 	 
